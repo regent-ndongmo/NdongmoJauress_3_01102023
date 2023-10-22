@@ -10,23 +10,47 @@
   <body>
     <header>
         <img src="assets/images/logo.png" class="logo" alt="fisheye logo"/>
-        <div class="header-link">
-          <a href="#">#portrait</a>
-          <a href="#">#Art</a>
-          <a href="#">#Fashion</a>
-          <a href="#">#Architecture</a>
-          <a href="#">#Travel</a>
-          <a href="#">#Sport</a>
-          <a href="#">#Animals</a>
-          <a href="#">#Events</a>
+        <div class="hashtag-container">
+          <div class="hashtag">
+            <a href="#">#Portrait</a>
+          </div>
+          <div class="hashtag">
+            <a href="#">#Art</a>
+          </div>
+          <div class="hashtag">
+            <a href="#">#Fashion</a>
+          </div>
+          <div class="hashtag">
+            <a href="#">#Architecture</a>
+          </div>
+          <div class="hashtag">
+            <a href="#">#Travel</a>
+          </div>
+          <div class="hashtag">
+            <a href="#">#Sport</a>
+          </div>
+          <div class="hashtag">
+            <a href="#">#Animals</a>
+          </div>
+          <div class="hashtag">
+            <a href="#">#Events</a>
+          </div>
         </div>
+
         <h1>Nos photographes</h1>
     </header>
     <main id="main">
-        <div class="photographer_section"></div>
+        <article class="photographer-wrapper"></article>
     </main>
-    <script src="scripts/templates/photographer.js"></script>
-    <script src="scripts/pages/index.js"></script>
-    <script src="scripts/factories/photographer.js"></script>
+    <!-- <script src="scripts/factories/Photographer.js"></script> -->
+
+    <script src="scripts/templates/PhotographerCard.js"></script>
+
+    <!-- <script src="scripts/pages/index.js"></script> -->
+    
+    <script src="scripts/api/Api.js"></script>
+
+    <script src="scripts/pages/App.js"></script>
+
   </body>
 </html>

@@ -1,5 +1,5 @@
 {
-	"photographers": [
+	"data": [
 		{
 			"name": "Mimi Keel",
 			"id": 243,
@@ -7,8 +7,9 @@
 			"country": "UK",
 			"tagline": "Voir le beau dans le quotidien",
 			"price": 400,
-			"portrait": "Mimi/Portrait_Nora.jpg",
-			"portrait1": "account.png"
+			"portrait": "assets/photographers/Photos/Mimi/Portrait_Nora.jpg",
+			"portrait1": "account.png",
+			"hashtag": "['#portrait', '#event', '#travel', '#animals']"
 		},
 		{
 			"name": "Ellie-Rose Wilkens",
@@ -17,8 +18,9 @@
 			"country": "France",
 			"tagline": "Capturer des compositions complexes",
 			"price": 250,
-			"portrait": "Ellie Rose/Architecture_Horseshoe.jpg",
-			"portrait1": "account.png"
+			"portrait": "assets/photographers/Photos/Rhode/Fashion_Melody_Red_on_Stripes.jpg",
+			"portrait1": "account.png",
+			"hashtag": "['#sport', '#architecture']"
 		},
 		{
 			"name": "Tracy Galindo",
@@ -27,8 +29,9 @@
 			"country": "Canada",
 			"tagline": "Photographe freelance",
 			"price": 500,
-			"portrait": "Tracy/Fashion_Urban_Jungle.jpg",
-			"portrait1": "account.png"
+			"portrait": "assets/photographers/Photos/Tracy/Fashion_Urban_Jungle.jpg",
+			"portrait1": "account.png",
+			"hashtag": "['#art', '#fashion', '#events']"
 		},
 		{
 			"name": "Nabeel Bradford",
@@ -37,8 +40,9 @@
 			"country": "Mexico",
 			"tagline": "Toujours aller de l'avant",
 			"price": 350,
-			"portrait": "Nabeel/Travel_Outdoor_Baths.jpg",
-			"portrait1": "account.png"
+			"portrait": "assets/photographers/Photos/Nabeel/Travel_Outdoor_Baths.jpg",
+			"portrait1": "account.png",
+			"hashtag": "['#travel', '#portrait']"
 		},
 		{
 			"name": "Rhode Dubois",
@@ -47,8 +51,9 @@
 			"country": "Spain",
 			"tagline": "Je crée des souvenirs",
 			"price": 275,
-			"portrait": "Rhode/Fashion_Melody_Red_on_Stripes.jpg",
-			"portrait1": "account.png"
+			"portrait": "assets/photographers/Photos/Rhode/Fashion_Melody_Red_on_Stripes.jpg",
+			"portrait1": "account.png",
+			"hashtag": "['#sport', '#fashion', '#events', '#animals']"
 		},
 		{
 			"name": "Marcel Nikolic",
@@ -57,8 +62,9 @@
 			"country": "Germany",
 			"tagline": "Toujours à la recherche de LA photo",
 			"price": 300,
-			"portrait": "Marcel/Travel_Tower.jpg",
-			"portrait1": "account.png"
+			"portrait": "assets/photographers/Photos/Marcel/Travel_Tower.jpg",
+			"portrait1": "account.png",
+			"hashtag": "['#travel', '#architecture']"
 		}
 	],
 	"media": [
