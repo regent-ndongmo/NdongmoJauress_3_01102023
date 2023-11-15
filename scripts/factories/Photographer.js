@@ -9,7 +9,10 @@ class OldPhotograper{
     this._tagline = data.tagline
     this._price = data.price
     this._portrait = data.portrait
-    this._hashtag = data.hashtag
+    this._hashtag1 = data.hashtag1
+    this._hashtag2 = data.hashtag2
+    this._hashtag3 = data.hashtag3
+    this._hashtag4 = data.hashtag4
   }
   get name(){
     return this._name
@@ -33,8 +36,19 @@ class OldPhotograper{
     return this._portrait
   }
 
-  get hashtag(){
-    return this.hashtag
+  get hashtag1(){
+    return this.hashtag1
   }
+  get hashtag2(){
+    return this.hashtag2
+  }
+  get hashtag3(){
+    return this.hashtag3
+  }
+  get hashtag4(){
+    return this.hashtag4
+  }
+  
 }
+
   

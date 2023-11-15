@@ -1,22 +1,17 @@
-class PhotographerCard{
+class PhotographerInf{
     constructor(photographer){
         this._photographer = photographer
     }
 
-    createPhotographerCard(){
+    createPhotographerInf(){
+        const id = data.id;
         const $wrapper = document.createElement('article');
-        $wrapper.classList.add('photographer-card-wrapper');
+        $wrapper.classList.add('photographer-wrapper');
 
-        const photographerCard = `
-            <div class="figure center">
-                <img
-                    alt="${this._photographer.id}"
-                    src="${this._photographer.portrait}"    
-                />
-                <h2>
-                    ${this._photographer.name}
-                </h2>
-            </div>
+        const photographerInf = `
+            <h2>
+            ${this._photographer.name}
+            </h2>
             <div class="text-container">
                 <h3>
                     ${this._photographer.city}, ${this._photographer.country} 
@@ -26,23 +21,24 @@ class PhotographerCard{
             </div>
             <div class="hashtag-container">
                 <span class="hashtag">
-                    <a href="#">#Fashion</a>
+                    <a href="#">${this._photographer.hashtag1}</a>
                 </span>
                 <span class="hashtag">
-                    <a href="#">#Fashion</a>
+                    <a href="#">${this._photographer.hashtag2}</a>
                 </span>
                 <span class="hashtag">
-                    <a href="#">#Art</a>
+                    <a href="#">${this._photographer.hashtag3}</a>
+                </span>
+                <span class="hashtag">
+                    <a href="#">${this._photographer.hashtag4}</a>
                 </span>
             </div>
             
         `
-        $wrapper.innerHTML = photographerCard
+        $wrapper.innerHTML = photographerInf
 
         return $wrapper
 
     }
 
-
-    
 }

@@ -9,7 +9,10 @@
 			"price": 400,
 			"portrait": "assets/photographers/Photos/Mimi/Portrait_Nora.jpg",
 			"portrait1": "account.png",
-			"hashtag": "['#portrait', '#event', '#travel', '#animals']"
+			"hashtag1": "#portrait",
+			"hashtag2": "#event",
+			"hashtag3": "#travel",
+			"hashtag4": "#animals"
 		},
 		{
 			"name": "Ellie-Rose Wilkens",
@@ -20,7 +23,8 @@
 			"price": 250,
 			"portrait": "assets/photographers/Photos/Rhode/Fashion_Melody_Red_on_Stripes.jpg",
 			"portrait1": "account.png",
-			"hashtag": "['#sport', '#architecture']"
+			"hashtag1": "#sport",
+			"hashtag2": "#architecture"
 		},
 		{
 			"name": "Tracy Galindo",
@@ -31,7 +35,9 @@
 			"price": 500,
 			"portrait": "assets/photographers/Photos/Tracy/Fashion_Urban_Jungle.jpg",
 			"portrait1": "account.png",
-			"hashtag": "['#art', '#fashion', '#events']"
+			"hashtag1": "#art",
+			"hashtag2": "#fashion",
+			"hashtag3": "#events"
 		},
 		{
 			"name": "Nabeel Bradford",
@@ -42,7 +48,8 @@
 			"price": 350,
 			"portrait": "assets/photographers/Photos/Nabeel/Travel_Outdoor_Baths.jpg",
 			"portrait1": "account.png",
-			"hashtag": "['#travel', '#portrait']"
+			"hashtag1": "#portrait",
+			"hashtag2": "#portrait"
 		},
 		{
 			"name": "Rhode Dubois",
@@ -53,7 +60,10 @@
 			"price": 275,
 			"portrait": "assets/photographers/Photos/Rhode/Fashion_Melody_Red_on_Stripes.jpg",
 			"portrait1": "account.png",
-			"hashtag": "['#sport', '#fashion', '#events', '#animals']"
+			"hashtag1": "#sport",
+			"hashtag2": "#fashion",
+			"hashtag3": "#events",
+			"hashtag4": "#animals"
 		},
 		{
 			"name": "Marcel Nikolic",
@@ -64,7 +74,8 @@
 			"price": 300,
 			"portrait": "assets/photographers/Photos/Marcel/Travel_Tower.jpg",
 			"portrait1": "account.png",
-			"hashtag": "['#travel', '#architecture']"
+			"hashtag1": "#travel",
+			"hashtag2": "#architecture"
 		}
 	],
 	"media": [
